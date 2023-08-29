@@ -10,11 +10,23 @@ body{
     color:white;
     border:none;
 }
+.section_title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.section_description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
 .header_container{
     display: flex;
     background-color: rgb(249, 220, 225);
     justify-content: space-around;
-    max-height: 600px;
+    max-height: 700px;
 }
 .header_text_container{
     padding: 150px 30px 30px 180px
@@ -27,9 +39,60 @@ body{
 }
 .header_image{
     width: 500px;
-    height: 500px;
+    height: 700px;
 }
 
 /* Feature flower section start */
+.flower_section{
+    display: flex;
+    justify-content: space-around ;
+}
+
+.flower_section{
+    margin-top: 100px;
+}
+.single_flower{
+    border-radius: 300px 300px 0px 0px;
+}
+.single_flower:first-child{
+    background-color: rgba(167, 33, 98, 0.15);
+}
+.single_flower .img{
+
+}
+.single_flower:nth-child(2){
+    background-color: rgba(5, 151, 160, 0.15); 
+}
+.single_flower:last-child{
+    background-color: rgba(71, 125, 17, 0.15);
+}
 /* Feature flower section end */
 
+/* Hotdeal section start */
+.hotdeal_container{
+    display: flex;
+    background: rgba(229, 84, 115, 0.05);
+    /* height: 400px; */
+    margin-top: 100px;
+    padding: 100px 100px 0px 100px;
+}
+.hotdeal_text_container{
+    padding: 80px 20px 0px 20px;
+    width: 60%;
+}
+.hotdeal_heading{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+}
+.hotdeal_text_span{
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1;
+}
+.hotdeal_image{
+    width:90%;
+}
+/* Hotdeal section end */
