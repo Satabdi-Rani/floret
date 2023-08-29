@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-primary{
+    padding: 10px 20px;
+    border-radius: 5px ;
+    background-color: #E55473;
+    color:white;
+    border:none;
+}
+.header_container{
+    display: flex;
+    background-color: rgb(249, 220, 225);
+    justify-content: space-around;
+    max-height: 600px;
+}
+.header_text_container{
+    padding: 150px 30px 30px 180px
+}
+.header_text{
+    font-size: 63px;
+    font-weight:700;
+}
+.header_image_container{
+}
+.header_image{
+    width: 500px;
+    height: 500px;
+}
+
+/* Feature flower section start */
+/* Feature flower section end */
+
