@@ -45,26 +45,31 @@ body{
 /* Feature flower section start */
 .flower_section{
     display: flex;
-    justify-content: space-around ;
+    justify-items: center;
+    align-items: center;
+    gap:20px;
+    text-align: center;
+    text-decoration: underline;
+    margin-left: 60px;
+    margin-top: 70px;
 }
-
-.flower_section{
-    margin-top: 100px;
-}
-.single_flower{
+.single_flower_image1{
+    width: 370px;
+    height: 471px;
     border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
 }
-.single_flower:first-child{
-    background-color: rgba(167, 33, 98, 0.15);
+.single_flower_image2{
+    width: 370px;
+    height: 471px;
+    border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
 }
-.single_flower .img{
-
-}
-.single_flower:nth-child(2){
-    background-color: rgba(5, 151, 160, 0.15); 
-}
-.single_flower:last-child{
-    background-color: rgba(71, 125, 17, 0.15);
+.single_flower_image3{
+    width: 370px;
+    height: 471px;
+    border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
 }
 /* Feature flower section end */
 
@@ -78,7 +83,8 @@ body{
 }
 .hotdeal_text_container{
     padding: 80px 20px 20px 20px;
-    width: 60%;
+    width: 60%; 
+    text-align: center;
 }
 .hotdeal_heading{
     color: #272727;
@@ -104,6 +110,7 @@ body{
 .instagram_image_section{
     display: flex;
     margin-top: 5%;
+    gap:10px;
 }
 .instagram_image{
     width: 316px;
@@ -112,6 +119,18 @@ body{
 }
 /* Instagram section end */
 
+/* Video section start */
+.flower_video{
+    margin-top: 100px;
+}
+.flower_video_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flower_iframe{
+    
+}
 /* Latest deal start */
 .latest_deal{
     padding:100px;
@@ -120,12 +139,20 @@ body{
     background-image: url('../Flower_Image/Rectangle\ 9.png');
     height: 300px;
     background-repeat: no-repeat;
-    padding: 15% 0% 0% 34%;
+    text-align: center;
+    padding-top: 120px;
     
 }
-.email_section input[text]{
-    width: 700px;
-height: 64px;
+.latest_deal_heading{
+    font-size: 30px;
+}
+.deal{
+    padding-bottom:20px;
+}
+.email_section input[type=text]{
+    width: 500px;
+    height: 30px;
+    margin-top: 20px;
 }
 /* Latest deal end */
 
